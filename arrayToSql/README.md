@@ -65,3 +65,5 @@ Solo sirve para funciones simples, no genera querys mas avanzados que tengan joi
 	//SELECT campo1,campo2,campo3 FROM tabla WHERE id = 1;
 </code>
 </pre>
+
+Post: [arrayToSql](http://example.com/ "Café Con Web") en mi blog.
