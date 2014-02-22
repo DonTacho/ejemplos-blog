@@ -66,4 +66,4 @@ Solo sirve para funciones simples, no genera querys mas avanzados que tengan joi
 </code>
 </pre>
 
-Post: [arrayToSql](http://example.com/ "Café Con Web") en mi blog.
+Post: [arrayToSql](http://cafeconweb.net/convertir-array-a-sql/ "Café Con Web") en mi blog.
