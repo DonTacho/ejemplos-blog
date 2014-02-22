@@ -5,6 +5,13 @@
 
 
 ###La funcion recibe 3 parametros###
+
+La función sirve para evitar escribir una sentencia SQL completa,
+la intencion es que al pasarle un array con los datos de la tabla, automaticamente
+genere el query.
+
+Solo sirve para funciones simples, no genera querys mas avanzados que tengan joins, o subconsultas anidadas.
+
 >1. $type //El tipo de consulta (insert, delete, update, o select).
 >2. $data //El array con los datos, los keys del array deben llamarse exactamente igual que los campos de la tabla.
 >3. $table //El nombre de la tabla a la cual haremos nuestra consulta.
