@@ -2,6 +2,8 @@
 
 ##Funcionamiento##
 
+
+
 ###La funcion recibe 3 parametros###
 >1. $type //El tipo de consulta (insert, delete, update, o select).
 >2. $data //El array con los datos, los keys del array deben llamarse exactamente igual que los campos de la tabla.
@@ -9,6 +11,8 @@
 
 ##Un ejemplo
 
+<pre>
+<code>
 	/*
 	 * Para un insert, creamos un array con los valores a insertar
 	 */
@@ -52,3 +56,5 @@
 	);
 	$sql4 = arrayToSql('select', $data4, 'tabla');
 	//SELECT campo1,campo2,campo3 FROM tabla WHERE id = 1;
+</code>
+</pre>
