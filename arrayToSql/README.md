@@ -1,18 +1,13 @@
-=======================================================================
-== Funcion para pasar un arreglo de datos y convertirlo a querys SQL ==
-=======================================================================
+#Funcion para pasar un arreglo de datos y convertirlo a querys SQL#
 
-						====================
-						== Funcionamiento ==
-						====================
-La funcion recibe 3 parametros, 
-1. $type //El tipo de consulta (insert, delete, update, o select).
-2. $data //El array con los datos, los keys del array deben llamarse exactamente igual que los campos de la tabla.
-3. $table //El nombre de la tabla a la cual haremos nuestra consulta.
+##Funcionamiento##
 
-						====================
-						==   Un ejemplo   ==
-						====================
+###La funcion recibe 3 parametros###
+>1. $type //El tipo de consulta (insert, delete, update, o select).
+>2. $data //El array con los datos, los keys del array deben llamarse exactamente igual que los campos de la tabla.
+>3. $table //El nombre de la tabla a la cual haremos nuestra consulta.
+
+##Un ejemplo
 
 	/*
 	 * Para un insert, creamos un array con los valores a insertar
